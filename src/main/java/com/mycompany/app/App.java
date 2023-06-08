@@ -11,7 +11,7 @@ public class App {
       
     }
 
-    public void loop(){
+    public int loop(){
          //create loop from 1 to 100 of integer
         for (int i = 1; i <= 100; i++) {
             //if the number is divisible by 3 and 5, print FizzBuzz
@@ -28,5 +28,15 @@ public class App {
                 System.out.println(i);
             }
         }
+        return 10;
+    }
+
+    public void list()
+    {
+        //create list of integer from 1 to 100
+        
+        
+        
+
     }
 }
